@@ -1,0 +1,27 @@
+.DM {
+    font-size: 18px;
+    background-color: rgba(193, 200, 211, 0.856);
+  }
+  .b {
+    color: rgb(68, 35, 33);
+    text-align: center;
+  }
+  .blu {
+    color: rgb(40, 35, 90);
+  }
+  .SK {
+    color: #89abe3ff;
+  }
+  .hg {
+    text-align: center;
+  }
+  ul{
+    padding:0;
+    margin-left:30px;
+  }
+  li{
+    color:rgb(245, 12, 51)
+  }
+  li span{
+    color: rgb(77, 72, 72);
+  }

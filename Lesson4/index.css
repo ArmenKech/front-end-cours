@@ -1,0 +1,61 @@
+table tr td {
+    border: 1px solid black;
+  }
+   tbody tr td{
+       height: 50px;
+       vertical-align: top;
+
+  }
+  table  {
+
+    border-spacing: 0px;
+    margin: 0 auto;
+    width:80% ;
+    
+  }
+  table thead tr td {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+  /* table thead tr td:first-of-type{
+          color:initial;} */
+  table thead tr td {
+    background-color: slategrey;
+  }
+  table tbody tr td:first-of-type {
+    background-color: slategrey;
+  }
+  table tbody tr td:first-of-type {
+    color: white;
+  }
+  table tbody tr:not(:first-of-type) td:nth-of-type(2) {
+    background-color: rgb(224, 195, 224);
+    color: red;
+   
+  }
+  table tbody tr:not(:first-of-type):not(:last-of-type) td:last-of-type {
+    background-color: rgb(224, 195, 224);
+    color: red;
+  }
+  .en-day {
+    background-color: rgb(224, 195, 224);
+    color: red;
+  }
+  table li {
+    list-style: none;
+    font-size: 8px;
+    text-align: left;
+  }
+  body {
+    background-color: rgb(217, 236, 245);
+    text-align: center;
+  }
+  tbody {
+    text-align: left;
+    font-size: 12px;
+  }
+  table caption {
+    font-size: 20px;
+    font-weight: bold;
+  }

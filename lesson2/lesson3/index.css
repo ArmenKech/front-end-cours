@@ -1,0 +1,43 @@
+table tr td{
+     /* border-width: 2px;
+     border-color: black;
+     border-style: solid; */
+
+     border: 3px solid black;}
+     table { 
+         border-spacing: 0;
+     }
+     /* border-bottom:none; */
+
+     /* border-right: 3px solid blue; */
+     table thead tr td:not(:first-of-type) {
+         font-weight: bold;
+         text-align:center;
+         color: blue;
+     }
+     /* table thead tr td:first-of-type{
+         color:initial;
+     } */
+    table tbody tr td:first-of-type{
+        color:red;
+    }
+    table tbody tr:nth-of-type(2) td:nth-of-type(3){
+        background-color: sandybrown;
+
+    }
+    table tbody tr:nth-of-type(2n){
+        color: slateblue;
+    }
+    table tbody tr:nth-of-type(2n+1){
+        background-color: skyblue;
+    }
+    input[type="email"]{
+        border:2px solid blue;
+    }
+input[type]{
+    background-color: brown;
+}
+
+    
+    
+
