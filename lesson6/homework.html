@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+ <div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homework.css"/>
+
+</head>
+<body>
+
+    <form>
+
+
+        <p>
+          <input type="radio" name="income" value="Roundtrip"/> Roundtrip
+          <input type="radio" name="income" value="One way"/> One way
+          <input type="radio" name="income" value="Multy-City"/> Multy-City
+        </p>
+            <label>
+
+                <ul>
+                <li> FLYING FROM </li>
+                <input type="text" name="username" required placeholder="City or airport"/>
+               </ul>
+               <ul>
+                <li > FLYING TO </li>
+                <input type="text" name="username" required placeholder="City or airport" />
+            </ul>
+            <br/>
+            <ol >
+                <li>DEPARTING </li>
+                <input type="date" name="departday" />
+               </ol>
+               <ol>
+                <li >RETURNING </li>
+                <input type="date" name="retornday" />
+               </ol>
+                <ol>
+                <li>ADULTS(18+) </li>
+                <input type="number" name="a-namber" min="18" max="150" />
+               </ol>
+               <ol>
+                <li  > CHILDREN(0-17) </li>
+                <input type="number" name="a-namber"min="0" max="17" />
+            </ol>
+            <ol>
+                <li>
+                    TRAVEL CLASS
+                </li>
+                <select name="Class">
+                    <option value="Econom class">Econom class</option>
+                    <option value="Biznes class">Biznes class</option>
+                    <option value="Premium class">Premium class</option>
+                  </select>
+                  <button>SHOW  FLIGHT</button>
+            </ol>
+    
+              </label>
+            
+      </form>
+
+</body>
+</html>

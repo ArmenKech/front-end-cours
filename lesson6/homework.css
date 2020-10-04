@@ -1,0 +1,61 @@
+form label ul input {
+  width: 220px;
+  color: black;
+  border-radius: 10px;
+  border-style: none;
+}
+ul {
+  display: inline-block;
+  list-style: none;
+}
+ol {
+  display: inline-block;
+  list-style: none;
+}
+form label ol input {
+  font-size: 10px;
+  width: 90px;
+  border-radius: 10px;
+  border-style: none;
+}
+body {
+  border-style: hidden;
+  background: url(10211437.jpg);
+  background-size: 100%;
+}
+
+form {
+  font-size: 10px;
+  background-color: rgba(10, 4, 4, 0.63);
+  text-align: left;
+  border-radius: 5px;
+  align-content: center;
+  padding: 8px;
+  margin: 130px 210px;
+  text-align: left;
+  color: white;
+}
+select {
+  border-radius: 10px;
+  width: 43%;
+  
+
+}
+button {
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  border-style: none;
+  margin-left: 20px;
+}
+form label input:focus {
+  outline: none;
+  background-color: rgba(248, 244, 244, 0.849);
+  box-shadow: 0px 0px 9px 0px white;
+}
+select:focus 
+{
+  outline: none;
+  background-color: rgba(248, 244, 244, 0.849);
+  box-shadow: 0px 0px 9px 0px white
+}
