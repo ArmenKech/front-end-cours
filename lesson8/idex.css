@@ -1,0 +1,85 @@
+.item {
+    width: 50px;
+    min height: 50px;
+    background-color: blue;
+    color:white;
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    /* margin-bottom: 5px; */
+
+/* .item:last-of-type {
+    margin: 0;
+} */
+
+/* arajin makardaki diver@ */
+body > div {
+
+}
+/* harevan divin */
+.container + div {
+
+}
+/* nerqevi bolor ira makardaki p-r@ */
+.mydiv ~ p {
+    color:red;
+ }
+ /* .container > *:not(:last-child) {
+     margin-bottom: 5px;
+ } */
+.container {
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    border: 1px solid black;
+}
+.item:nth-of-type(3) {
+    align-self: stretch;
+    order: 1;
+}
+.item:nth-of-type(4) {
+    align-self: flex-start;
+}
+.item:nth-of-type(1) {
+    order:2;
+}
+.container1 {
+    width: 100px;
+    height: 400px;
+    border: 1px solid black;
+flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.item1 {
+     width: 50px;
+    min height: 50px;
+    background-color: blue;
+    color:white;
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.item-wrap {
+    min-height: 200px;
+width: 150px;
+background-color: tomato;
+
+color: thistle;
+font-size: 25px;
+
+display: flex;
+align-items:center;
+justify-content: center;
+}
+.container-wrap {
+display: flex;
+flex-flow: wrap;
+
+}
