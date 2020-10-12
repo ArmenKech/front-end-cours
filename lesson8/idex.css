@@ -1,6 +1,6 @@
 .item {
     width: 50px;
-    min height: 50px;
+    min-height: 50px;
     background-color: blue;
     color:white;
     font-size: 25px;
@@ -57,7 +57,7 @@ flex-direction: column;
 }
 .item1 {
      width: 50px;
-    min height: 50px;
+    min-height: 50px;
     background-color: blue;
     color:white;
     font-size: 25px;

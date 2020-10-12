@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ body {
+     padding: 20px;
+     height: 100vh;
+     display :grid;
+     grid-row: gap 20px; 
+     grid-template-areas:
+     "main""
+     "user1"
+     "user2";
+     grid-template-columns: 3fr 1fr;
+grid-template-rows: 80px 1fr 80px;
+grid-template-areas: 
+ }
+ main {
+     grid-area:main;
+     background-color: rgba(111, 204, 247, 0.486);
+ }
+.user1 {
+    grid-area: user1;
+    background-color: rgb(245, 82, 82);
+}
+.user2 {
+    grid-area: user2;
+    background-color: rgb(243, 61, 61);
+}
