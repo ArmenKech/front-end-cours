@@ -13,8 +13,7 @@
      "user1"
      "user2";
      grid-template-columns: 3fr 1fr;
-grid-template-rows: 80px 1fr 80px;
-grid-template-areas: 
+grid-template-rows: 80px 1fr 80px; 
  }
  main {
      grid-area:main;

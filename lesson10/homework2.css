@@ -1,0 +1,70 @@
+*  {
+    box-sizing: border-box;
+}
+body {
+    width: 500px;
+    height: 250px;
+    display: grid;
+grid-template-areas: 
+"pic"
+"text";
+grid-template-columns: 200px 100px;
+justify-content: center;
+}
+.pic {
+    display: grid;
+    grid-template-rows: repeat(4,2fr) ;
+    position: relative;
+}
+.text {
+justify-content: center;
+align-self: center;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+border-radius:7px ;
+
+}
+
+.div1 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(174, 238, 101);
+    top:110px;
+    left:10px;
+    position: relative;
+    z-index: 3;
+}
+.div2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(143, 107, 8);
+    position: relative;
+    left: 30px;
+    top:-15px;
+    z-index:2 ;
+}
+.div3 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(76, 153, 241);
+left: 110px;
+top: -50px;
+z-index: 1;
+}
+.div4 {
+width:25px ;
+height: 25px;
+background-color: rgb(122, 230, 176);
+position: relative;
+left: 50px;
+top: -80px;
+}
+
+
+
+
